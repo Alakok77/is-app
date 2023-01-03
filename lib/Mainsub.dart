@@ -152,21 +152,21 @@ class Math extends StatelessWidget {
             "จำนวนเชิงซ้อน",
             Color.fromARGB(255, 239, 63, 63),
             Color.fromARGB(255, 231, 154, 214),
-            Image.network(
+            Image.asset(
                 'images/com.png')),
         subject(
             Powlist,
             "เลขยกกกำลัง",
             Color.fromARGB(255, 239, 63, 63),
             Color.fromARGB(255, 231, 154, 214),
-            Image.network(
+            Image.asset(
                 'images/pow.png')),
         subject(
             Sequenlist,
             "ลำดับและอนุกรม",
             Color.fromARGB(255, 239, 63, 63),
             Color.fromARGB(255, 231, 154, 214),
-            Image.network(
+            Image.asset(
                 'images/seq.png')),
       ],
     ));
